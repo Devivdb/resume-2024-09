@@ -1,0 +1,214 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Main
+            3.2.1 Skills and Experience
+            3.2.2 Education and Rest
+        3.3 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+body {
+    border: 1px solid deeppink;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: hsl(40, 75%, 92%);
+    display: flex;
+    flex-direction: row;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
+
+header {
+    border: 1px solid black;
+    background: hsl(219, 52%, 26%);
+    color: hsl(40, 75%, 92%);
+    max-width: 350px;
+    min-height: 800px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    order: 1;
+    align-self: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+header h1, p{
+    order: 2;
+    padding: 5px;
+}
+
+details {
+    order: 3;
+    padding: 5px;
+}
+
+header ul {
+    margin: 5px;
+    list-style: none;
+}
+
+a:link {
+    color: hsl(40, 75%, 92%);
+    text-decoration: none;
+}
+a:visited {
+    color: hsl(40, 75%, 92%);
+}
+
+a:hover {
+    color: hsl(0, 40%, 40%);
+}
+
+/*///////////// 3.2 Main /////////////*/
+
+main {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*///////////// 3.2.1 Skills and Experience /////////////*/
+
+.pro-sk {
+    /*border: 1px solid purple;*/
+    order: 1;
+}
+
+main h2:nth-of-type(1) {
+    /*border: 1px solid deepskyblue;*/
+    min-width: 100%;
+    order: 2;
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+.gu-utc {
+    /*border: 1px solid yellow;*/
+    order: 3;
+    flex-grow: 1;
+    width: 40%;
+}
+
+.work-asw {
+    /*border: 1px solid red;*/
+    order: 4;
+    flex-grow: 2;
+    width: 60%;
+}
+
+.work-vwt {
+    /*border: 1px solid blue;*/
+    order: 5;
+    flex-grow: 3;
+    width: 40%;
+}
+
+.work-gauchos {
+    /*border: 1px solid brown;*/
+    order: 6;
+    flex-grow: 0;
+    width: 60%;
+}
+
+main ul {
+    padding-left: 20px;
+    list-style: circle;
+}
+
+/*///////////// 3.2.2 Education and Rest /////////////*/
+
+main h2:nth-of-type(2) {
+    /*border: 1px solid deepskyblue;*/
+    min-width: 40%;
+    order: 7;
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+.hbo {
+    /*border: 1px solid deeppink;*/
+    order: 9;
+    width: 40%;
+}
+
+main h2:nth-of-type(3) {
+    /*border: 1px solid deepskyblue;*/
+    min-width: 60%;
+    order: 8;
+    align-self: flex-start;
+    padding-bottom: 10px;
+}
+
+.mbo {
+    /*border: 1px solid rebeccapurple;*/
+    order: 11;
+    width: 100%;
+}
+
+.data-aly {
+    /*border: 1px solid cornflowerblue;*/
+    order: 10;
+    width: 60%;
+}
+
+main h2:nth-of-type(4) {
+    /*border: 1px solid cornflowerblue;*/
+    order: 12;
+    width: 40%;
+    padding-bottom: 5px;
+}
+
+.skilset {
+    /*border: 1px solid cornflowerblue;*/
+    order: 14;
+    width: 40%;
+}
+
+main h2:nth-of-type(5) {
+    /*border: 1px solid cornflowerblue;*/
+    order: 13;
+    width: 60%;
+    padding-bottom: 5px;
+}
+
+.spoke-lag {
+    /*border: 1px solid cornflowerblue;*/
+    order: 17;
+    width: 60%;
+}
+/*///////////// 3.3 Footer /////////////*/
