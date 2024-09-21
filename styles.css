@@ -4,7 +4,9 @@ Table of Contents:
     2. Typografie
     3. Areas
         3.1 Header
-        3.2 Testimonial
+        3.2 Main
+            3.2.1 Skills and Experience
+            3.2.2 Education and Rest
         3.3 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
@@ -98,38 +100,115 @@ main {
     flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
-
 }
+
+/*///////////// 3.2.1 Skills and Experience /////////////*/
+
 .pro-sk {
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
     order: 1;
 }
 
 main h2:nth-of-type(1) {
-    border: 1px solid deepskyblue;
-    width: 1663px;
+    /*border: 1px solid deepskyblue;*/
+    min-width: 100%;
     order: 2;
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+.gu-utc {
+    /*border: 1px solid yellow;*/
+    order: 3;
+    flex-grow: 1;
+    width: 40%;
 }
 
 .work-asw {
-    border: 1px solid red;
-    width: 600px;
-    order: 3;
-    flex-grow: 1;
+    /*border: 1px solid red;*/
+    order: 4;
+    flex-grow: 2;
+    width: 60%;
 }
 
 .work-vwt {
-    border: 1px solid blue;
-    width: 1150px;
-    order: 3;
-    flex-grow: 2;
+    /*border: 1px solid blue;*/
+    order: 5;
+    flex-grow: 3;
+    width: 40%;
 }
 
 .work-gauchos {
-    border: 1px solid brown;
-    width: 1150px;
-    order: 5;
+    /*border: 1px solid brown;*/
+    order: 6;
     flex-grow: 0;
+    width: 60%;
 }
 
+main ul {
+    padding-left: 20px;
+    list-style: circle;
+}
+
+/*///////////// 3.2.2 Education and Rest /////////////*/
+
+main h2:nth-of-type(2) {
+    /*border: 1px solid deepskyblue;*/
+    min-width: 40%;
+    order: 7;
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+.hbo {
+    /*border: 1px solid deeppink;*/
+    order: 9;
+    width: 40%;
+}
+
+main h2:nth-of-type(3) {
+    /*border: 1px solid deepskyblue;*/
+    min-width: 60%;
+    order: 8;
+    align-self: flex-start;
+    padding-bottom: 10px;
+}
+
+.mbo {
+    /*border: 1px solid rebeccapurple;*/
+    order: 11;
+    width: 100%;
+}
+
+.data-aly {
+    /*border: 1px solid cornflowerblue;*/
+    order: 10;
+    width: 60%;
+}
+
+main h2:nth-of-type(4) {
+    /*border: 1px solid cornflowerblue;*/
+    order: 12;
+    width: 40%;
+    padding-bottom: 5px;
+}
+
+.skilset {
+    /*border: 1px solid cornflowerblue;*/
+    order: 14;
+    width: 40%;
+}
+
+main h2:nth-of-type(5) {
+    /*border: 1px solid cornflowerblue;*/
+    order: 13;
+    width: 60%;
+    padding-bottom: 5px;
+}
+
+.spoke-lag {
+    /*border: 1px solid cornflowerblue;*/
+    order: 17;
+    width: 60%;
+}
 /*///////////// 3.3 Footer /////////////*/
